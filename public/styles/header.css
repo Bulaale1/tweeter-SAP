@@ -1,23 +1,8 @@
-/* 
-nav{
-  position: absolute;
-  background-color: #edb953;
-  z-index: 1;
-}
-.header {
-  height: 300px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #edb953;/* Change this to your desired background color */
-  /* z-index: 2; */
-/* }  */ 
+
 nav {
-  position: relative; /* Making the nav a positioned element */
+  position: relative; 
   background-color: #edb953;
-  /* padding: 20px; Adding some padding for spacing */
+
 }
 
 .header {
@@ -26,7 +11,7 @@ nav {
   align-items: center;
  } 
 
-/* Example styling for the name and avatar in the header */
+
 .nameAndavatar {
   display: flex;
   flex-direction: column;
@@ -34,8 +19,8 @@ nav {
 }
 
 .nameAndavatar img {
-  width: 15%; /* Adjust the size as needed */
-  height: 15%; /* Adjust the size as needed */
-  border-radius: 50%; /* To create a circular avatar */
-  margin-bottom: 10px; /* Adding margin between image and text */
+  width: 15%; 
+  height: 15%; 
+  border-radius: 50%; 
+  margin-bottom: 10px; 
 }
