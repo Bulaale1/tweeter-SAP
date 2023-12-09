@@ -68,9 +68,9 @@ $(document).ready(function() {
       data: $formData
     }).then((response) =>{
       console.log('Response was succefully sent',response);
-      var parsedResponse = JSON.parse(response);
-      var tweetId = parsedResponse.tweetId;
-      console.log(tweetId);
+      // var parsedResponse = JSON.parse(response);
+      // var tweetId = parsedResponse.tweetId;
+      // console.log(tweetId);
       const tweet = {
         "user": {
           "name": "Newton",
